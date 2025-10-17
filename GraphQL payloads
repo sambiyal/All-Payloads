@@ -51,3 +51,21 @@ Once you know the name of the root query type (usually Query), you can expand:
     }
   }
 }
+
+4.
+
+4. Describe All Scalars and Enums
+
+To inspect available scalars and enums:
+
+{
+  __schema {
+    types {
+      name
+      kind
+      enumValues {
+        name
+      }
+    }
+  }
+}
