@@ -31,3 +31,23 @@
     subscriptionType { name }
   }
 }
+
+3.
+
+3. Fetch All Query Fields
+
+Once you know the name of the root query type (usually Query), you can expand:
+
+{
+  __type(name: "Query") {
+    name
+    fields {
+      name
+      description
+      type {
+        name
+        kind
+      }
+    }
+  }
+}
