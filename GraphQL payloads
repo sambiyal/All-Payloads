@@ -1,3 +1,5 @@
+1.
+
 {
   __schema {
     queryType { name }
@@ -16,5 +18,16 @@
         }
       }
     }
+  }
+}
+
+
+2.
+
+{
+  __schema {
+    queryType { name }
+    mutationType { name }
+    subscriptionType { name }
   }
 }
